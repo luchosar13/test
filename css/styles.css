@@ -1,0 +1,88 @@
+@theme {
+  --font-sans: InterVariable, sans-serif;
+}
+
+.btn-whatsapp{
+    background-color: #25D366;
+    z-index: 10;
+    color: white;
+    border-radius: 100%;
+    padding: 10px 10px;
+    margin-top: 85vh;
+    margin-left: 95vw;
+    position: fixed;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+    color: white;
+}
+
+hr.solid {
+  border-top: 1px solid #8a8585;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  height: 100vh;
+  background: url('../assets/img/hero.jpg') center center / cover no-repeat;
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  z-index: 1;
+}
+
+.hero h1 {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+.vl-xlg {
+  border-left: 6px solid;
+  height: 100px;
+}
+.vl-lg {
+  border-left: 6px solid;
+  height: 100px;
+}
+.vl-md {
+  border-left: 6px solid;
+  height: 50px;
+}
+.vl-sm {
+  border-left: 6px solid;
+  height: 25px;
+}
+.vl-xsm {
+  border-left: 6px solid;
+  height: 12.5px;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  font-size: 30px;
+  padding: 12px 15px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  z-index: 999;
+}
